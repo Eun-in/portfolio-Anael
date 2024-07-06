@@ -11,7 +11,7 @@
 body {
     @apply dark:bg-black dark:text-white;
     color: black;
-    background-color: white;
+    background-color: white; 
 }
 
 .gradient-circle {
