@@ -220,7 +220,7 @@ const Edit = () => {
                                 onChange={(e) =>
                                     setData({ ...data, name: e.target.value })
                                 }
-                                className="w-4/5 ml-10 p-2 rounded-md shadow-lg border-2"
+                                className="w-4/5 ml-10 p-2 rounded-md shadow-lg border-2 bg-white"
                                 type="text"
                             ></input>
                         </div>
@@ -236,7 +236,7 @@ const Edit = () => {
                                         headerTaglineOne: e.target.value,
                                     })
                                 }
-                                className="w-4/5 ml-10 p-2 rounded-md shadow-lg border-2"
+                                className="w-4/5 ml-10 p-2 rounded-md shadow-lg border-2 bg-white"
                                 type="text"
                             ></input>
                         </div>
@@ -252,7 +252,7 @@ const Edit = () => {
                                         headerTaglineTwo: e.target.value,
                                     })
                                 }
-                                className="w-4/5 ml-10 p-2 rounded-md shadow-lg border-2"
+                                className="w-4/5 ml-10 p-2 rounded-md shadow-lg border-2 bg-white"
                                 type="text"
                             ></input>
                         </div>
@@ -268,7 +268,7 @@ const Edit = () => {
                                         headerTaglineThree: e.target.value,
                                     })
                                 }
-                                className="w-4/5 ml-10 p-2 rounded-md shadow-lg border-2"
+                                className="w-4/5 ml-10 p-2 rounded-md shadow-lg border-2 bg-white"
                                 type="text"
                             ></input>
                         </div>
@@ -284,7 +284,7 @@ const Edit = () => {
                                         headerTaglineFour: e.target.value,
                                     })
                                 }
-                                className="w-4/5 ml-10 p-2 rounded-md shadow-lg border-2"
+                                className="w-4/5 ml-10 p-2 rounded-md shadow-lg border-2 bg-white"
                                 type="text"
                             ></input>
                         </div>
@@ -426,7 +426,7 @@ const Edit = () => {
                                                     title: e.target.value,
                                                 })
                                             }
-                                            className="w-4/5 ml-10 p-2 rounded-md shadow-lg border-2"
+                                            className="w-4/5 ml-10 p-2 rounded-md shadow-lg border-2 bg-white"
                                             type="text"
                                         ></input>
                                     </div>
@@ -442,7 +442,7 @@ const Edit = () => {
                                                     description: e.target.value,
                                                 })
                                             }
-                                            className="w-4/5 ml-10 p-2 rounded-md shadow-lg border-2"
+                                            className="w-4/5 ml-10 p-2 rounded-md shadow-lg border-2 bg-white"
                                             type="text"
                                         ></input>
                                     </div>
@@ -458,7 +458,7 @@ const Edit = () => {
                                                     imageSrc: e.target.value,
                                                 })
                                             }
-                                            className="w-4/5 ml-10 p-2 rounded-md shadow-lg border-2"
+                                            className="w-4/5 ml-10 p-2 rounded-md shadow-lg border-2 bg-white"
                                             type="text"
                                         ></input>
                                     </div>
@@ -474,7 +474,7 @@ const Edit = () => {
                                                     url: e.target.value,
                                                 })
                                             }
-                                            className="w-4/5 ml-10 p-2 rounded-md shadow-lg border-2"
+                                            className="w-4/5 ml-10 p-2 rounded-md shadow-lg border-2 bg-white"
                                             type="text"
                                         ></input>
                                     </div>
@@ -521,7 +521,7 @@ const Edit = () => {
                                                     title: e.target.value,
                                                 })
                                             }
-                                            className="w-4/5 ml-10 p-2 rounded-md shadow-lg border-2"
+                                            className="w-4/5 ml-10 p-2 rounded-md shadow-lg border-2 bg-white"
                                             type="text"
                                         ></input>
                                     </div>
@@ -537,7 +537,7 @@ const Edit = () => {
                                                     description: e.target.value,
                                                 })
                                             }
-                                            className="w-4/5 ml-10 p-2 rounded-md shadow-lg border-2"
+                                            className="w-4/5 ml-10 p-2 rounded-md shadow-lg border-2 bg-white"
                                         ></textarea>
                                     </div>
                                     <hr className="my-10"></hr>
@@ -555,7 +555,7 @@ const Edit = () => {
                     <div className="mt-10">
                         <h1 className="text-5xl">À propos</h1>
                         <textarea
-                            className="w-full h-96 mt-10 p-2 rounded-md shadow-md border"
+                            className="w-full h-96 mt-10 p-2 rounded-md shadow-md border bg-white"
                             value={data.aboutpara}
                             onChange={(e) =>
                                 setData({ ...data, aboutpara: e.target.value })
@@ -593,7 +593,7 @@ const Edit = () => {
                                                     title: e.target.value,
                                                 })
                                             }
-                                            className="w-4/5 ml-10 p-2 rounded-md shadow-lg border-2"
+                                            className="w-4/5 ml-10 p-2 rounded-md shadow-lg border-2 bg-white"
                                             type="text"
                                         ></input>
                                     </div>
@@ -609,7 +609,7 @@ const Edit = () => {
                                                     link: e.target.value,
                                                 })
                                             }
-                                            className="w-4/5 ml-10 p-2 rounded-md shadow-lg border-2"
+                                            className="w-4/5 ml-10 p-2 rounded-md shadow-lg border-2 bg-white"
                                             type="text"
                                         />
                                     </div>
@@ -642,7 +642,7 @@ const Edit = () => {
                                         },
                                     })
                                 }
-                                className="w-4/5 ml-10 p-2 rounded-md shadow-lg border-2"
+                                className="w-4/5 ml-10 p-2 rounded-md shadow-lg border-2 bg-white"
                                 type="text"
                             ></input>
                         </div>
@@ -661,7 +661,7 @@ const Edit = () => {
                                         },
                                     })
                                 }
-                                className="w-4/5 ml-10 p-2 rounded-md shadow-lg border-2"
+                                className="w-4/5 ml-10 p-2 rounded-md shadow-lg border-2 bg-white"
                             ></textarea>
                         </div>
                         <hr className="my-10"></hr>
@@ -699,7 +699,7 @@ const Edit = () => {
                                                         }
                                                     )
                                                 }
-                                                className="w-4/5 ml-10 p-2 rounded-md shadow-lg border-2"
+                                                className="w-4/5 ml-10 p-2 rounded-md shadow-lg border-2 bg-white"
                                                 type="text"
                                             ></input>
                                         </div>
@@ -719,7 +719,7 @@ const Edit = () => {
                                                         }
                                                     )
                                                 }
-                                                className="w-4/5 ml-10 p-2 rounded-md shadow-lg border-2"
+                                                className="w-4/5 ml-10 p-2 rounded-md shadow-lg border-2 bg-white"
                                                 type="text"
                                             ></input>
                                         </div>
@@ -739,7 +739,7 @@ const Edit = () => {
                                                         }
                                                     )
                                                 }
-                                                className="w-4/5 ml-10 p-2 rounded-md shadow-lg border-2"
+                                                className="w-4/5 ml-10 p-2 rounded-md shadow-lg border-2 bg-white"
                                                 type="text"
                                             ></input>
                                         </div>
@@ -762,7 +762,7 @@ const Edit = () => {
                                                         )
                                                     }
                                                     placeholder="Bullet One, Bullet Two, Bullet Three"
-                                                    className="p-2 rounded-md shadow-lg border-2"
+                                                    className="p-2 rounded-md shadow-lg border-2 bg-white"
                                                     type="text"
                                                 ></input>
                                             </div>
@@ -801,7 +801,7 @@ const Edit = () => {
                                             },
                                         })
                                     }
-                                    className="w-4/5 ml-10 p-2 rounded-md shadow-lg border-2"
+                                    className="w-4/5 ml-10 p-2 rounded-md shadow-lg border-2 bg-white"
                                     type="text"
                                 ></input>
                             </div>
@@ -824,7 +824,7 @@ const Edit = () => {
                                             },
                                         })
                                     }
-                                    className="w-4/5 ml-10 p-2 rounded-md shadow-lg border-2"
+                                    className="w-4/5 ml-10 p-2 rounded-md shadow-lg border-2 bg-white"
                                     type="text"
                                 ></input>
                             </div>
@@ -847,7 +847,7 @@ const Edit = () => {
                                             },
                                         })
                                     }
-                                    className="w-4/5 ml-10 p-2 rounded-md shadow-lg border-2"
+                                    className="w-4/5 ml-10 p-2 rounded-md shadow-lg border-2 bg-white"
                                     type="text"
                                 ></input>
                             </div>
@@ -884,7 +884,7 @@ const Edit = () => {
                                                             },
                                                         });
                                                     }}
-                                                    className="w-full p-2 rounded-md shadow-lg border-2"
+                                                    className="w-full p-2 rounded-md shadow-lg border-2 bg-white"
                                                     type="text"
                                                 ></input>
                                                 <Button
@@ -963,7 +963,7 @@ const Edit = () => {
                                                             },
                                                         });
                                                     }}
-                                                    className="w-full p-2 rounded-md shadow-lg border-2"
+                                                    className="w-full p-2 rounded-md shadow-lg border-2 bg-white"
                                                     type="text"
                                                 ></input>
                                                 <Button
@@ -1039,7 +1039,7 @@ const Edit = () => {
                                                         },
                                                     });
                                                 }}
-                                                className="w-full p-2 rounded-md shadow-lg border-2"
+                                                className="w-full p-2 rounded-md shadow-lg border-2 bg-white"
                                                 type="text"
                                             ></input>
                                             <Button
